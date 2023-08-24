@@ -18,7 +18,7 @@ Chrome extension to declutter YouTube, eliminating distractions from recommended
 ### From Source
 
 1. Clone this repository: git clone [https://github.com/your-username/youtube-focus-extension.git](https://github.com/matthieumiser/youtube-focus.git)
-2. 2. Open Chrome and go to `chrome://extensions/`.
+2. Open Chrome and go to `chrome://extensions/`.
 3. Enable **Developer mode** and click on **Load unpacked**.
 4. Select the directory where you cloned this repository.
 5. The extension should now be added to Chrome.
