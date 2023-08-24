@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "Hide YouTube Recommended",
+    "version": "1.0",
+    "description": "Hide recommended videos on YouTube for distraction-free viewing.",
+    "permissions": ["activeTab", "storage"],
+    "content_scripts": [
+        {
+            "matches": ["*://www.youtube.com/*"],
+            "js": ["content.js"]
+        }
+    ],
+    "icons": {
+        "48": "icon.png"
+    },
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "48": "icon.png"
+        }
+    }    
+}
