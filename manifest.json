@@ -1,6 +1,6 @@
 {
     "manifest_version": 3,
-    "name": "Hide YouTube Recommended",
+    "name": "YouTube Focus",
     "version": "1.0",
     "description": "Hide recommended videos on YouTube for distraction-free viewing.",
     "permissions": ["activeTab", "storage"],
