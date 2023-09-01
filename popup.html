@@ -2,21 +2,23 @@
 <html>
 <head>
     <title>YouTube Focus Controls</title>
-    <style>
-        body {
-            width: 250px;
-            font-family: Arial, sans-serif;
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" href="popup.css">
 </head>
 <body>
-    <label>
-        <input type="checkbox" id="hideRecommendedVideos" checked> Hide Recommended Videos
-    </label>
-    <br>
-    <label>
-        <input type="checkbox" id="hideHomepageRecommendations" checked> Hide Homepage Recommendations
-    </label>
+    <div class="header">
+        <img src="icon.png" alt="YouTube Focus Icon" class="icon">
+        <h1>YouTube Focus</h1>
+    </div>
+    <div class="content">
+        <label class="toggle-container">
+            <input type="checkbox" id="hideRecommendedVideos" checked>
+            <span class="toggle-label">Hide Recommended Videos</span>
+        </label>
+        <label class="toggle-container">
+            <input type="checkbox" id="hideHomepageRecommendations" checked>
+            <span class="toggle-label">Hide Homepage Recommendations</span>
+        </label>
+    </div>
     <script src="popup.js"></script>
 </body>
 </html>
