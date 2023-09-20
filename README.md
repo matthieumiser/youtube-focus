@@ -11,7 +11,7 @@ Chrome extension to declutter YouTube, eliminating distractions from recommended
 
 ### From Chrome Web Store
 
-1. Visit [Chrome Web Store link](#) (Replace `#` with your extension's link when published).
+1. Visit [Chrome Web Store link](https://chrome.google.com/webstore/detail/youtube-focus/kbpcdmphfdjkmojocjcghimokklabcdm).
 2. Click on **Add to Chrome**.
 3. Confirm and enjoy a distraction-free YouTube experience.
 
